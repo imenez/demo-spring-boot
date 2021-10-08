@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-boot-mongodb
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: local
+      authentication-database: admin
+      uri: mongodb://imenez:imenez@localhost:27017/mydatabase?authSource=admin
